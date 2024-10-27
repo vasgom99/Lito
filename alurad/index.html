@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogoTex Designs</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="logo.png" alt="Logo de LogoTex Designs" class="logo"></h1>
+            <nav>
+                <ul class="lista">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="banner">
+        <img src="banner-design.png" alt="Banner de LogoTex Designs">
+        <div class="banner-text">
+            <h2>Bienvenidos a LogoTex Designs</h2>
+            <p>Creamos tu identidad visual con diseños únicos</p>
+            <a href="#contacto" class="btn-reserva">Solicitar Diseño</a>
+        </div>
+    </section>
+    
+    <main>
+        <section class="principal">
+            <h2 class="central">Sobre Nuestro Estudio de Diseño</h2>
+            <img class="herramientas" src="herramientas-diseno.jpg" alt="Herramientas de diseño">
+            <p id="misión">Ubicado en el centro creativo de la ciudad, <strong>LogoTex Designs</strong> ofrece lo mejor en diseño de logos y camisetas personalizadas. Fundado en 2024, LogoTex Designs se destaca por su innovación y calidad, atrayendo nuevos clientes diariamente.</p>
+            <p><em>Nuestra misión es: <strong>"Transformar ideas en diseños únicos y memorables"</strong></em></p>
+            <p>Contamos con diseñadores talentosos y experimentados que están en constante actualización para ofrecer las últimas tendencias en diseño gráfico. Garantizamos la satisfacción de nuestros clientes con un servicio personalizado y de excelencia.</p>
+        </section>
+
+        <section id="servicios" class="servicios">
+            <h3 class="central">Nuestros Servicios</h3>
+            <div class="contenido-servicios">
+                <div class="servicio">
+                    <img src="un logo.png" alt="Diseño de logos" class="imagen-servicio">
+                    <h4>Diseño de Logos</h4>
+                    <p class="texto-servicio">Creamos logos únicos que reflejan la esencia de tu marca.</p>
+                </div>
+                <div class="servicio">
+                    <img src="una camiseta con el logo.png"Diseño de camisetas" class="imagen-servicio">
+                    <h4>Diseño de Camisetas</h4>
+                    <p class="texto-servicio">Diseñamos camisetas personalizadas para individuos y empresas.</p>
+                </div>
+                <div class="servicio">
+                    <img src="branding completo.png" alt="Branding" class="imagen-servicio">
+                    <h4>Branding Completo</h4>
+                    <p class="texto-servicio">Desarrollamos la identidad visual completa para tu negocio.</p>
+                </div>
+                <div class="servicio">
+                    <img src="servicios de impresión.png" alt="Impresión" class="imagen-servicio">
+                    <h4>Servicios de Impresión</h4>
+                    <p class="texto-servicio">Imprimimos tus diseños en alta calidad en diversos materiales.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonios">
+            <h3 class="central">Lo que dicen nuestros clientes</h3>
+            <div class="contenido-testimonios">
+                <div class="testimonio">
+                    <img src="un cliente feliz con su logo.png" alt="Cliente 1" class="imagen-cliente">
+                    <p>"Increíble trabajo en el logo de mi empresa. Captaron perfectamente nuestra visión."</p>
+                    <p class="nombre-cliente">- Laura Martínez, CEO de TechStart</p>
+                </div>
+                <div class="testimonio">
+                    <img src="un cliente feliz con su nuevo logo.png" alt="Cliente 2" class="imagen-cliente">
+                    <p>"Las camisetas personalizadas para nuestro evento fueron un éxito total. ¡Gracias LogoTex!"</p>
+                    <p class="nombre-cliente">- Carlos Sánchez, Organizador de EventoPro</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="galeria">
+            <h3 class="central">Galería de Diseños</h3>
+            <div class="contenido-galeria">
+                <img src="2 logos of any kind (1).png" alt="Logo diseñado 1">
+                <img src="una camiseta con el primer logo.png" alt="Camiseta diseñada 1">
+                <img src="2 logos of any kind.png" alt ="Logo diseñado 2">
+                <img src="una camiseta con el segundo logo.png" alt="Camiseta diseñada 2">
+            </div>
+        </section>
+
+        <section id="pago" class="pago">
+          <h3 class="central">Realiza tu Pago</h3>
+          <div class="paypal-container">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="TU_ID_DE_BOTON">
+                  <input type="image" src="https://www.paypalobjects.com/es_ES/i/btn/btn_buynowCC_LG.gif"  name="submit" alt="PayPal, la forma más segura y fácil de pagar en línea.">
+                  <img alt="" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+              </form>
+          </div>
+      </section>
+      
+        <section id="contacto" class="contacto">
+            <h3 class="central">Contáctanos</h3>
+            <form class="formulario-contacto">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono">
+                <textarea placeholder="Describe tu proyecto" required></textarea>
+                <button type="submit" class="btn-enviar">Solicitar Diseño</button>
+            </form>
+        </section>
+
+        <section class="faq">
+            <h3 class="central">Preguntas Frecuentes</h3>
+            <div class="contenido-faq">
+                <details>
+                    <summary>¿Cuánto tiempo toma crear un logo personalizado?</summary>
+                    <p>El tiempo de creación de un logo personalizado varía según la complejidad del proyecto, pero generalmente toma entre 1 a 2 semanas desde la aprobación del concepto inicial.</p>
+                </details>
+                <details>
+                    <summary>¿Ofrecen servicios de diseño para otros productos además de camisetas?</summary>
+                    <p>Sí, además de camisetas, ofrecemos diseños para una variedad de productos como gorras, tazas, bolsos y más. Contáctanos para discutir tus necesidades específicas.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <img src="logotex-logo-blanco.png" alt="Logo de LogoTex Designs">
+            <div class="redes-sociales">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copy">© 2024 LogoTex Designs. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
